@@ -15,13 +15,8 @@
     }
 
     .main-layout {
-        grid-template-columns: 1fr;
-    }
-
-    .left-column,
-    .center-column,
-    .right-column {
-        width: 100%;
+        display: flex;
+        flex-direction: column;
     }
 
     .card {
